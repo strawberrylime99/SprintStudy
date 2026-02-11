@@ -1,0 +1,53 @@
+{
+  "cursor": 0,
+  "topics": [
+    {
+      "slug": "8-week-course-planner-template",
+      "title": "8-Week Course Planner Template: A Weekly Structure That Actually Works",
+      "description": "A practical system for mapping assignments and deadlines across accelerated terms.",
+      "tags": ["8 week course planner", "online classes", "study planner"],
+      "primaryKeyword": "8 week course planner",
+      "secondaryKeyword": "accelerated course schedule template"
+    },
+    {
+      "slug": "online-class-weekly-schedule-template",
+      "title": "Online Class Weekly Schedule Template for Busy Students",
+      "description": "How to set a repeatable weekly rhythm that prevents deadline pileups.",
+      "tags": ["online class schedule", "weekly planner", "working student"],
+      "primaryKeyword": "online class weekly schedule template",
+      "secondaryKeyword": "weekly study schedule for online courses"
+    },
+    {
+      "slug": "survive-accelerated-courses-while-working-full-time",
+      "title": "How to Survive Accelerated Courses While Working Full Time",
+      "description": "A realistic block-based plan for balancing work shifts and compressed course deadlines.",
+      "tags": ["accelerated courses", "working full time", "time management"],
+      "primaryKeyword": "how to survive accelerated courses while working full time",
+      "secondaryKeyword": "working student accelerated class tips"
+    },
+    {
+      "slug": "assignment-tracker-for-accelerated-classes",
+      "title": "Assignment Tracker for Accelerated Classes: Setup in 15 Minutes",
+      "description": "Build a clear assignment pipeline for faster terms with fewer missed due dates.",
+      "tags": ["assignment tracker", "college planner", "accelerated program"],
+      "primaryKeyword": "assignment tracker for accelerated classes",
+      "secondaryKeyword": "track assignments in 8 week courses"
+    },
+    {
+      "slug": "grade-calculator-for-short-term-classes",
+      "title": "Grade Calculator Strategy for Short-Term Classes",
+      "description": "Use target-grade math to prioritize high-impact assignments each week.",
+      "tags": ["grade calculator", "course planning", "study strategy"],
+      "primaryKeyword": "grade calculator for short term classes",
+      "secondaryKeyword": "grade target planning accelerated course"
+    },
+    {
+      "slug": "time-blocking-for-accelerated-online-programs",
+      "title": "Time Blocking for Accelerated Online Programs",
+      "description": "A simple weekday/weekend block framework for compressed online terms.",
+      "tags": ["time blocking", "online program", "study routine"],
+      "primaryKeyword": "time blocking for accelerated online programs",
+      "secondaryKeyword": "study blocks for 8 week classes"
+    }
+  ]
+}
