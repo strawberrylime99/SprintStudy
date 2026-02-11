@@ -1,5 +1,14 @@
 <script lang="ts">
+  import { track } from '@vercel/analytics/sveltekit';
+
   const etsyUrl = 'https://satinstreet.etsy.com/?utm_source=sprintstudy-site&utm_medium=referral&utm_campaign=product-page';
+
+  function trackEtsyClick() {
+    track('etsy_buy_click', {
+      source: 'product_page',
+      destination: 'satinstreet_shop'
+    });
+  }
 </script>
 
 <svelte:head>
@@ -16,7 +25,9 @@
     <p class="eyebrow">Digital Download Bundle</p>
     <h1>SprintStudy: 8-Week Course Planner Kit</h1>
     <p>One setup, then repeat weekly. Built for online students with compressed deadlines.</p>
-    <a class="buy" href={etsyUrl} target="_blank" rel="noreferrer">Buy on Etsy</a>
+    <a class="buy" href={etsyUrl} target="_blank" rel="noreferrer" on:click={trackEtsyClick}
+      >Buy on Etsy</a
+    >
   </header>
 
   <section>
