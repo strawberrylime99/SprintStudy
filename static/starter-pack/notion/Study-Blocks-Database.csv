@@ -1,0 +1,7 @@
+Block Name,Week,Day,Start Time,End Time,Duration (hrs),Block Type,Linked Task,Planned,Completed,Notes
+Week 1 Block A,1,Mon,7:00 PM,8:00 PM,1,Reading,Intro discussion post,true,false,
+Week 1 Block B,1,Wed,7:00 PM,9:00 PM,2,Revision,Quiz 1,true,false,
+Week 1 Deep Work,1,Sat,10:00 AM,12:30 PM,2.5,Submission,Quiz 1,true,false,
+Week 2 Block A,2,Tue,7:00 PM,8:00 PM,1,Drafting,Case response,true,false,
+Week 2 Deep Work,2,Sat,10:00 AM,1:00 PM,3,Revision,Case response,true,false,
+Week 3 Buffer,3,Sun,5:00 PM,6:00 PM,1,Buffer,Milestone 1 draft,true,false,

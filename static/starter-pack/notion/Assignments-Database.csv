@@ -1,5 +1,11 @@
-Task Name,Course,Week,Due Date,Status,Priority,Estimated Hours,Actual Hours,Grade Weight %,Target Score %,Actual Score %,Notes
-Initial discussion post,PSY-305,1,2026-03-02,Not Started,High,1.5,0,5,95,,
-Quiz 1,PSY-305,1,2026-03-04,Not Started,High,2,0,10,90,,
-Reflection paper,PSY-305,2,2026-03-09,Not Started,Medium,3,0,15,92,,
-Project milestone 1,PSY-305,3,2026-03-16,Not Started,High,4,0,20,90,,
+Task Name,Course,Module,Week,Type,Due Date,Status,Priority,Estimated Hours,Actual Hours,Grade Weight %,Target Score %,Actual Score %,Points Earned,Points Possible,Needs Attention,Notes
+Intro discussion post,PSY-305,Orientation,1,Discussion,2026-03-02,Not Started,High,1.5,0,5,95,,,,false,
+Quiz 1,PSY-305,Memory Systems,1,Quiz,2026-03-04,Not Started,High,2,0,10,90,,,,false,
+Case response,PSY-305,Attention,2,Paper,2026-03-09,Not Started,Medium,3,0,15,92,,,,false,
+Milestone 1 draft,PSY-305,Final Project,3,Project,2026-03-16,Not Started,High,4,0,20,90,,,,true,Start earlier this week
+Quiz 2,BUS-330,Capacity Planning,4,Quiz,2026-03-23,Not Started,Medium,2,0,10,90,,,,false,
+Project milestone 2,PSY-305,Final Project,5,Project,2026-03-30,Not Started,High,4.5,0,20,90,,,,true,Need research citations
+Discussion 2,BUS-330,Process Mapping,6,Discussion,2026-04-06,Not Started,Low,1,0,5,90,,,,false,
+Final paper draft,PSY-305,Final Project,7,Paper,2026-04-13,Not Started,High,5,0,25,92,,,,true,Book tutor review
+Final submission,PSY-305,Final Project,8,Project,2026-04-20,Not Started,High,6,0,30,92,,,,true,
+Final exam,BUS-330,Comprehensive,8,Exam,2026-04-24,Not Started,High,5,0,40,88,,,,true,
