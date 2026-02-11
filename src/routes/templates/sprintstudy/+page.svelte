@@ -9,6 +9,13 @@
       destination: 'satinstreet_shop'
     });
   }
+
+  function trackStarterDownload(file: string) {
+    track('starter_pack_download', {
+      source: 'product_page',
+      file
+    });
+  }
 </script>
 
 <svelte:head>
@@ -46,6 +53,45 @@
       Students taking accelerated 6-10 week terms who need a practical system to stay ahead of assignments,
       protect grade goals, and avoid last-minute panic.
     </p>
+  </section>
+
+  <section>
+    <h2>Starter Pack (Free while you build)</h2>
+    <p>
+      Use these editable starter files now, then swap in your final branded bundle files before listing launch.
+    </p>
+    <ul>
+      <li>
+        <a href="/starter-pack/notion/Assignments-Database.csv" on:click={() => trackStarterDownload('notion_assignments_csv')}
+          >Notion: Assignments Database CSV</a
+        >
+      </li>
+      <li>
+        <a href="/starter-pack/notion/Weekly-Plan-Board.csv" on:click={() => trackStarterDownload('notion_weekly_plan_csv')}
+          >Notion: Weekly Plan Board CSV</a
+        >
+      </li>
+      <li>
+        <a href="/starter-pack/sheets/Assignment-Tracker.csv" on:click={() => trackStarterDownload('sheets_assignment_tracker_csv')}
+          >Sheets: Assignment Tracker CSV</a
+        >
+      </li>
+      <li>
+        <a href="/starter-pack/sheets/Grade-Target-Calculator.csv" on:click={() => trackStarterDownload('sheets_grade_target_csv')}
+          >Sheets: Grade Target Calculator CSV</a
+        >
+      </li>
+      <li>
+        <a href="/starter-pack/printables/Weekly-Checklist.html" on:click={() => trackStarterDownload('printable_weekly_checklist_html')}
+          >Printable: Weekly Checklist (print to PDF)</a
+        >
+      </li>
+      <li>
+        <a href="/starter-pack/README.md" on:click={() => trackStarterDownload('starter_pack_readme')}
+          >Starter Pack Guide</a
+        >
+      </li>
+    </ul>
   </section>
 </main>
 
@@ -105,5 +151,10 @@
     background: linear-gradient(120deg, #f96e2a 0%, #d04d16 100%);
     border-radius: 12px;
     padding: 0.62rem 0.95rem;
+  }
+
+  a {
+    color: #1d4d86;
+    font-weight: 700;
   }
 </style>

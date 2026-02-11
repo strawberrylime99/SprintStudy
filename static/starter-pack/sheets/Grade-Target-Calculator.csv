@@ -1,0 +1,8 @@
+Metric,Formula (Google Sheets / Excel),Example Value
+Current Weighted Grade,"=IFERROR(SUMPRODUCT(D2:D200,F2:F200)/SUMIF(F2:F200,">0",D2:D200),0)",0.87
+Remaining Weight %,"=1-SUMIF(D2:D200,">0",D2:D200)",0.50
+Target Final Grade %,manual input,0.90
+Required Average on Remaining %,"=IFERROR((B3-B1*(1-B2))/B2,0)",0.93
+Planned Hours This Week,"=SUM(J2:J200)",11
+Actual Hours This Week,"=SUM(K2:K200)",8
+Hours Variance,"=B6-B5",-3
